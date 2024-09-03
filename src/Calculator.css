@@ -1,0 +1,45 @@
+
+.calc {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5e5e5e; 
+    border-radius: 8px;
+    box-shadow: 0 8px 1px rgba(54, 54, 54, 0.1);
+  }
+  
+  /* Style for the display screen of the calculator */
+  .display {
+    height: 60px;
+    background-color: #dcdcdc; 
+    border: 1px solid #ced4da; 
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 15px;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styles for calculator buttons */
+  .buttons .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9ecef; 
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for calculator buttons */
+  .buttons .col:hover {
+    background-color: #cdd0d3; 
+  }
+  
+  
